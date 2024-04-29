@@ -27,7 +27,7 @@ export const Three = () => {
             </div>
         </div>
 
-        <iframe width="385" height="220" src="https://www.youtube.com/embed/tUykoP30Gb0?si=8jVnDWaBNr7etKla" allowfullscreen></iframe>
+        <iframe title='gym' width="385" height="220" src="https://www.youtube.com/embed/tUykoP30Gb0?si=8jVnDWaBNr7etKla" allowfullscreen></iframe>
      
         <div className='info'>
             <h3>Fill The Details</h3>

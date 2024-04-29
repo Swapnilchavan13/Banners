@@ -27,7 +27,7 @@ export const One = () => {
         </div>
 
        
-        <iframe width="385" height="220" src="https://www.youtube.com/embed/lXu8bZn24Qs" allowfullscreen></iframe>
+        <iframe title='makeup' width="385" height="220" src="https://www.youtube.com/embed/lXu8bZn24Qs" allowfullscreen></iframe>
      
 
         <div className='info'>
