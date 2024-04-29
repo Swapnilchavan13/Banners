@@ -1,0 +1,60 @@
+#maindiv{
+    margin: auto;
+}
+.contentandphoto {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 5px;
+}
+
+.photo img{
+    width: 100%;
+}
+.banner img{
+    width: 100%; 
+}
+.offer img{
+    width: 100%; 
+}
+.content{
+    text-align: left;
+}
+.info{
+    text-align: left;
+    justify-content: center;
+    padding: 10px;
+}
+.info label {
+    font-weight: bold;
+    text-align: center;
+}
+
+.info input[type="text"], .info input[type="number"] {
+    width: 330px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+.info input[type="text"]:focus, .info input[type="number"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.info button {
+    display: block;
+    width: 95%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.info button:hover {
+    background-color: #0056b3;
+}
